@@ -1,0 +1,63 @@
+
+body {
+    font-family: Helvetica;
+    background-color: beige;
+    color: #5f5147;
+}
+
+h1 {
+    color: #997e67;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 35px;
+    color:#997e67; 
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 25px;
+    color:#997e67;
+    text-align: center;
+    font-style: italic;
+}
+.hero {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact h3 {
+    color: #ccbeb1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 80px;
+    background-color: #664930;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: white;
+    border-radius: 8px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 5% 5%;
+    border-radius: 10%;
+}
+    
+nav a:hover {
+    color: #664930;
+    background-color: beige;
+    border-radius: 10%;
+    padding: 10px 10px;
+    transition: 0.3s ease-in-out;
+}
+
